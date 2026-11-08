@@ -22,3 +22,21 @@ function retirarDinero(monto) {
 }
 
 
+retirarDinero(200)
+    .then((mensaje) => {
+        console.log(mensaje);
+    })
+    .catch((error) => {
+        console.log(error);
+    });
+
+retirarDinero(600)
+    .then((mensaje) => {
+        console.log(mensaje);
+    })
+    .catch((error) => {
+        console.log(error);
+    });
+
+
+
